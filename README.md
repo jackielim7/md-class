@@ -1,6 +1,6 @@
 # 📦 Streamlit App Starter Kit 
 ```
-⬆️ (Replace above with your app's name)
+Dermatology using streamlit
 ```
 
 Description of the app ...
