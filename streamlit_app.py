@@ -50,7 +50,9 @@ def main():
   band_like_infiltrate = st.slider('band like infiltrate', min_value = 0, max_value = 3, value = 0)
   age = st.slider('age', min_value = 0, max_value = 75, value = 40)
 
+  #coba test
   test = st.selectbox('Gender', ('Male', 'Female'))
+  
   # Input Data for Program dijadiin 1 list
   user_input = [erythema, scaling, definite_borders, itching, koebner_phenomenon, polygonal_papules, follicular_papules, oral_mucosal_involvement,
                 knee_and_elbow_involvement, scalp_involvement, family_history, melanin_incontinence, eosinophils_infiltrate, PNL_infiltrate,
