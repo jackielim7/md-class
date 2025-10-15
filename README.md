@@ -1,25 +1,31 @@
-# 📦 Streamlit App Starter Kit 
-```
-Dermatology using streamlit
-```
+# 🩺 Dermatology Machine Learning App
 
-Description of the app ...
+This project is a simple **Streamlit web application** that predicts dermatological conditions using a trained machine learning model.  
+It was developed during a **Machine Learning class session** with the lecturer as a hands-on exercise.
 
-## Demo App
+---
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## Demo App  
+You can try the live demo here:  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://md-class-jek.streamlit.app/)
 
-## GitHub Codespaces
+---
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## Project Overview
+This app allows users to input various dermatological parameters such as erythema, scaling, itching, and others.  
+The model then predicts the type of skin disease based on those features.
 
-## Section Heading
+---
 
-This is filler text, please replace this with text for this section.
+## Features
+1. User-friendly web interface built with Streamlit  
+2. Real-time prediction using a pre-trained machine learning model  
+3. Adjustable input sliders for clinical attributes  
+4. Instant output displaying the prediction result  
 
-## Further Reading
+---
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## Author
+Jackie Lim
+📧 [linkedin.com/in/jackie-lim7/](https://linkedin.com/in/jackie-lim7/)  
+🎓 Machine Learning Midterm Project — BINUS University  
