@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib #buat import pickle
+import joblib
 
 def load_model(filename):
   model = joblib.load(filename)
@@ -14,8 +14,8 @@ def main():
   st.title('Dermatology Machine Learning')  
   st.info('This app using machine learning')
 
-  #input data by user
-  erythema = st.slider('Erythema', min_value=0, max_value=3, value=2) #erythema tulisan buat judul dari slider value itu settingan default pas launch, min nilai slider terkiri, max slider terkanan
+  #Input data by user
+  erythema = st.slider('Erythema', min_value=0, max_value=3, value=2) 
   scaling = st.slider('Scaling', min_value = 0, max_value = 3, value = 2)
   definite_borders = st.slider('Definite Borders', min_value = 0, max_value = 3, value = 2)
   itching = st.slider('Itching', min_value = 0, max_value = 3, value = 0)
@@ -49,11 +49,8 @@ def main():
   inflammatory_mononuclear_infiltrate = st.slider('inflammatory mononuclear infiltrate', min_value = 0, max_value = 3, value = 2)
   band_like_infiltrate = st.slider('band like infiltrate', min_value = 0, max_value = 3, value = 0)
   age = st.slider('age', min_value = 0, max_value = 75, value = 40)
-
-  #coba test
-  test = st.selectbox('Gender', ('Male', 'Female'))
   
-  # Input Data for Program dijadiin 1 list
+  #Input Data for Program
   user_input = [erythema, scaling, definite_borders, itching, koebner_phenomenon, polygonal_papules, follicular_papules, oral_mucosal_involvement,
                 knee_and_elbow_involvement, scalp_involvement, family_history, melanin_incontinence, eosinophils_infiltrate, PNL_infiltrate,
                 fibrosis_papillary_dermis, exocytosis, acanthosis, hyperkeratosis, parakeratosis, clubbing_rete_ridges, elongation_rete_ridges,
